@@ -1,0 +1,35 @@
+.about-container {
+  padding: 0 3.2rem;
+}
+
+.about-container h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.about-container p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-container .about-list {
+  margin-left: 20px;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 1.6rem 0 1.6rem 0;
+  margin-left: 1.6rem;
+}
+
+.about-container ol {
+  margin-left: 20px;
+}
+
+.about-container code {
+  background-color: #f2f2f2;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+}

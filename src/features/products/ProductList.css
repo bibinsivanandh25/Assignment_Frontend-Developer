@@ -1,0 +1,29 @@
+.productList {
+  padding: 0 3.2rem;
+}
+
+.productListBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.product-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+  position: relative;
+}
+
+.product-input {
+  padding: 1.6rem 2.4rem;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  font-size: 1.6rem;
+  display: block;
+  width: 500px;
+  color: #555;
+  box-shadow: 0 0 4.8rem rgba(0, 0, 0, 0.075);
+}
