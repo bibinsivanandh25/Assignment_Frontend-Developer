@@ -7,8 +7,8 @@ import { emailRegex } from '../../constants';
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
-    email: 'test45@yopmail.com',
-    password: 'Test@123',
+    email: '',
+    password: '',
   });
 
   const navigate = useNavigate();
