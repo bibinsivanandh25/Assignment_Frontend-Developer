@@ -12,7 +12,4 @@
     Referrer-Policy = "same-origin"
     # Add more headers as needed
 
-# Define asset optimization settings
-[build]
-  command = "npm run build"
-  publish = "build/"
+
