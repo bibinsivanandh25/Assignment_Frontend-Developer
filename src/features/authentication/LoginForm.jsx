@@ -113,7 +113,7 @@ const LoginForm = () => {
             name="password"
             onChange={handleChange}
           />
-          {error.email && <p className="form-error">{error.password}</p>}
+          {error.password && <p className="form-error">{error.password}</p>}
         </div>
 
         <div className="form-btn">
